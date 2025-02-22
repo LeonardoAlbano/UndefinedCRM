@@ -1,0 +1,11 @@
+/Users/leonardoalbano/RiderProjects/UndefinedCRM/src/UndefinedCRM.Communication/bin/Debug/net8.0/UndefinedCRM.Communication.deps.json
+/Users/leonardoalbano/RiderProjects/UndefinedCRM/src/UndefinedCRM.Communication/bin/Debug/net8.0/UndefinedCRM.Communication.dll
+/Users/leonardoalbano/RiderProjects/UndefinedCRM/src/UndefinedCRM.Communication/bin/Debug/net8.0/UndefinedCRM.Communication.pdb
+/Users/leonardoalbano/RiderProjects/UndefinedCRM/src/UndefinedCRM.Communication/obj/Debug/net8.0/UndefinedCRM.Communication.GeneratedMSBuildEditorConfig.editorconfig
+/Users/leonardoalbano/RiderProjects/UndefinedCRM/src/UndefinedCRM.Communication/obj/Debug/net8.0/UndefinedCRM.Communication.AssemblyInfoInputs.cache
+/Users/leonardoalbano/RiderProjects/UndefinedCRM/src/UndefinedCRM.Communication/obj/Debug/net8.0/UndefinedCRM.Communication.AssemblyInfo.cs
+/Users/leonardoalbano/RiderProjects/UndefinedCRM/src/UndefinedCRM.Communication/obj/Debug/net8.0/UndefinedCRM.Communication.csproj.CoreCompileInputs.cache
+/Users/leonardoalbano/RiderProjects/UndefinedCRM/src/UndefinedCRM.Communication/obj/Debug/net8.0/UndefinedCRM.Communication.dll
+/Users/leonardoalbano/RiderProjects/UndefinedCRM/src/UndefinedCRM.Communication/obj/Debug/net8.0/refint/UndefinedCRM.Communication.dll
+/Users/leonardoalbano/RiderProjects/UndefinedCRM/src/UndefinedCRM.Communication/obj/Debug/net8.0/UndefinedCRM.Communication.pdb
+/Users/leonardoalbano/RiderProjects/UndefinedCRM/src/UndefinedCRM.Communication/obj/Debug/net8.0/ref/UndefinedCRM.Communication.dll

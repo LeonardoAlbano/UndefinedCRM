@@ -1,0 +1,15 @@
+/Users/leonardoalbano/RiderProjects/UndefinedCRM/src/UndefinedCRM.Infrastructure/bin/Debug/net8.0/UndefinedCRM.Infrastructure.deps.json
+/Users/leonardoalbano/RiderProjects/UndefinedCRM/src/UndefinedCRM.Infrastructure/bin/Debug/net8.0/UndefinedCRM.Infrastructure.dll
+/Users/leonardoalbano/RiderProjects/UndefinedCRM/src/UndefinedCRM.Infrastructure/bin/Debug/net8.0/UndefinedCRM.Infrastructure.pdb
+/Users/leonardoalbano/RiderProjects/UndefinedCRM/src/UndefinedCRM.Infrastructure/bin/Debug/net8.0/UndefinedCRM.Domain.dll
+/Users/leonardoalbano/RiderProjects/UndefinedCRM/src/UndefinedCRM.Infrastructure/bin/Debug/net8.0/UndefinedCRM.Domain.pdb
+/Users/leonardoalbano/RiderProjects/UndefinedCRM/src/UndefinedCRM.Infrastructure/obj/Debug/net8.0/UndefinedCRM.Infrastructure.csproj.AssemblyReference.cache
+/Users/leonardoalbano/RiderProjects/UndefinedCRM/src/UndefinedCRM.Infrastructure/obj/Debug/net8.0/UndefinedCRM.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+/Users/leonardoalbano/RiderProjects/UndefinedCRM/src/UndefinedCRM.Infrastructure/obj/Debug/net8.0/UndefinedCRM.Infrastructure.AssemblyInfoInputs.cache
+/Users/leonardoalbano/RiderProjects/UndefinedCRM/src/UndefinedCRM.Infrastructure/obj/Debug/net8.0/UndefinedCRM.Infrastructure.AssemblyInfo.cs
+/Users/leonardoalbano/RiderProjects/UndefinedCRM/src/UndefinedCRM.Infrastructure/obj/Debug/net8.0/UndefinedCRM.Infrastructure.csproj.CoreCompileInputs.cache
+/Users/leonardoalbano/RiderProjects/UndefinedCRM/src/UndefinedCRM.Infrastructure/obj/Debug/net8.0/Undefine.E273A0D4.Up2Date
+/Users/leonardoalbano/RiderProjects/UndefinedCRM/src/UndefinedCRM.Infrastructure/obj/Debug/net8.0/UndefinedCRM.Infrastructure.dll
+/Users/leonardoalbano/RiderProjects/UndefinedCRM/src/UndefinedCRM.Infrastructure/obj/Debug/net8.0/refint/UndefinedCRM.Infrastructure.dll
+/Users/leonardoalbano/RiderProjects/UndefinedCRM/src/UndefinedCRM.Infrastructure/obj/Debug/net8.0/UndefinedCRM.Infrastructure.pdb
+/Users/leonardoalbano/RiderProjects/UndefinedCRM/src/UndefinedCRM.Infrastructure/obj/Debug/net8.0/ref/UndefinedCRM.Infrastructure.dll

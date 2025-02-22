@@ -1,0 +1,11 @@
+/Users/leonardoalbano/RiderProjects/UndefinedCRM/src/UndefinedCRM.Domain/bin/Debug/net8.0/UndefinedCRM.Domain.deps.json
+/Users/leonardoalbano/RiderProjects/UndefinedCRM/src/UndefinedCRM.Domain/bin/Debug/net8.0/UndefinedCRM.Domain.dll
+/Users/leonardoalbano/RiderProjects/UndefinedCRM/src/UndefinedCRM.Domain/bin/Debug/net8.0/UndefinedCRM.Domain.pdb
+/Users/leonardoalbano/RiderProjects/UndefinedCRM/src/UndefinedCRM.Domain/obj/Debug/net8.0/UndefinedCRM.Domain.GeneratedMSBuildEditorConfig.editorconfig
+/Users/leonardoalbano/RiderProjects/UndefinedCRM/src/UndefinedCRM.Domain/obj/Debug/net8.0/UndefinedCRM.Domain.AssemblyInfoInputs.cache
+/Users/leonardoalbano/RiderProjects/UndefinedCRM/src/UndefinedCRM.Domain/obj/Debug/net8.0/UndefinedCRM.Domain.AssemblyInfo.cs
+/Users/leonardoalbano/RiderProjects/UndefinedCRM/src/UndefinedCRM.Domain/obj/Debug/net8.0/UndefinedCRM.Domain.csproj.CoreCompileInputs.cache
+/Users/leonardoalbano/RiderProjects/UndefinedCRM/src/UndefinedCRM.Domain/obj/Debug/net8.0/UndefinedCRM.Domain.dll
+/Users/leonardoalbano/RiderProjects/UndefinedCRM/src/UndefinedCRM.Domain/obj/Debug/net8.0/refint/UndefinedCRM.Domain.dll
+/Users/leonardoalbano/RiderProjects/UndefinedCRM/src/UndefinedCRM.Domain/obj/Debug/net8.0/UndefinedCRM.Domain.pdb
+/Users/leonardoalbano/RiderProjects/UndefinedCRM/src/UndefinedCRM.Domain/obj/Debug/net8.0/ref/UndefinedCRM.Domain.dll

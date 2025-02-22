@@ -1,0 +1,11 @@
+/Users/leonardoalbano/RiderProjects/UndefinedCRM/src/UndefinedCRM.Exception/bin/Debug/net8.0/UndefinedCRM.Exception.deps.json
+/Users/leonardoalbano/RiderProjects/UndefinedCRM/src/UndefinedCRM.Exception/bin/Debug/net8.0/UndefinedCRM.Exception.dll
+/Users/leonardoalbano/RiderProjects/UndefinedCRM/src/UndefinedCRM.Exception/bin/Debug/net8.0/UndefinedCRM.Exception.pdb
+/Users/leonardoalbano/RiderProjects/UndefinedCRM/src/UndefinedCRM.Exception/obj/Debug/net8.0/UndefinedCRM.Exception.GeneratedMSBuildEditorConfig.editorconfig
+/Users/leonardoalbano/RiderProjects/UndefinedCRM/src/UndefinedCRM.Exception/obj/Debug/net8.0/UndefinedCRM.Exception.AssemblyInfoInputs.cache
+/Users/leonardoalbano/RiderProjects/UndefinedCRM/src/UndefinedCRM.Exception/obj/Debug/net8.0/UndefinedCRM.Exception.AssemblyInfo.cs
+/Users/leonardoalbano/RiderProjects/UndefinedCRM/src/UndefinedCRM.Exception/obj/Debug/net8.0/UndefinedCRM.Exception.csproj.CoreCompileInputs.cache
+/Users/leonardoalbano/RiderProjects/UndefinedCRM/src/UndefinedCRM.Exception/obj/Debug/net8.0/UndefinedCRM.Exception.dll
+/Users/leonardoalbano/RiderProjects/UndefinedCRM/src/UndefinedCRM.Exception/obj/Debug/net8.0/refint/UndefinedCRM.Exception.dll
+/Users/leonardoalbano/RiderProjects/UndefinedCRM/src/UndefinedCRM.Exception/obj/Debug/net8.0/UndefinedCRM.Exception.pdb
+/Users/leonardoalbano/RiderProjects/UndefinedCRM/src/UndefinedCRM.Exception/obj/Debug/net8.0/ref/UndefinedCRM.Exception.dll

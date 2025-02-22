@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "UndefinedCRM.Infrastructure/1.0.0": {
+        "dependencies": {
+          "UndefinedCRM.Domain": "1.0.0"
+        },
+        "runtime": {
+          "UndefinedCRM.Infrastructure.dll": {}
+        }
+      },
+      "UndefinedCRM.Domain/1.0.0": {
+        "runtime": {
+          "UndefinedCRM.Domain.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "UndefinedCRM.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "UndefinedCRM.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
