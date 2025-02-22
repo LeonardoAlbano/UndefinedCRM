@@ -1,0 +1,67 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "UndefinedCRM.Application/1.0.0": {
+        "dependencies": {
+          "UndefinedCRM.Communication": "1.0.0",
+          "UndefinedCRM.Domain": "1.0.0",
+          "UndefinedCRM.Exception": "1.0.0"
+        },
+        "runtime": {
+          "UndefinedCRM.Application.dll": {}
+        }
+      },
+      "UndefinedCRM.Communication/1.0.0": {
+        "runtime": {
+          "UndefinedCRM.Communication.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "UndefinedCRM.Domain/1.0.0": {
+        "runtime": {
+          "UndefinedCRM.Domain.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "UndefinedCRM.Exception/1.0.0": {
+        "runtime": {
+          "UndefinedCRM.Exception.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "UndefinedCRM.Application/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "UndefinedCRM.Communication/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "UndefinedCRM.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "UndefinedCRM.Exception/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "E2qqhRTe0xfOOBwclm38CWIVJrKSjmQk3c10k26GuzQ=",
+  "Source": "UndefinedCRM.Api",
+  "BasePath": "_content/UndefinedCRM.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

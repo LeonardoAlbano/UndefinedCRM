@@ -1,0 +1,400 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/leonardoalbano/RiderProjects/UndefinedCRM/src/UndefinedCRM.Api/UndefinedCRM.Api.csproj": {}
+  },
+  "projects": {
+    "/Users/leonardoalbano/RiderProjects/UndefinedCRM/src/UndefinedCRM.Api/UndefinedCRM.Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/leonardoalbano/RiderProjects/UndefinedCRM/src/UndefinedCRM.Api/UndefinedCRM.Api.csproj",
+        "projectName": "UndefinedCRM.Api",
+        "projectPath": "/Users/leonardoalbano/RiderProjects/UndefinedCRM/src/UndefinedCRM.Api/UndefinedCRM.Api.csproj",
+        "packagesPath": "/Users/leonardoalbano/.nuget/packages/",
+        "outputPath": "/Users/leonardoalbano/RiderProjects/UndefinedCRM/src/UndefinedCRM.Api/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/leonardoalbano/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/leonardoalbano/RiderProjects/UndefinedCRM/src/UndefinedCRM.Application/UndefinedCRM.Application.csproj": {
+                "projectPath": "/Users/leonardoalbano/RiderProjects/UndefinedCRM/src/UndefinedCRM.Application/UndefinedCRM.Application.csproj"
+              },
+              "/Users/leonardoalbano/RiderProjects/UndefinedCRM/src/UndefinedCRM.Communication/UndefinedCRM.Communication.csproj": {
+                "projectPath": "/Users/leonardoalbano/RiderProjects/UndefinedCRM/src/UndefinedCRM.Communication/UndefinedCRM.Communication.csproj"
+              },
+              "/Users/leonardoalbano/RiderProjects/UndefinedCRM/src/UndefinedCRM.Exception/UndefinedCRM.Exception.csproj": {
+                "projectPath": "/Users/leonardoalbano/RiderProjects/UndefinedCRM/src/UndefinedCRM.Exception/UndefinedCRM.Exception.csproj"
+              },
+              "/Users/leonardoalbano/RiderProjects/UndefinedCRM/src/UndefinedCRM.Infrastructure/UndefinedCRM.Infrastructure.csproj": {
+                "projectPath": "/Users/leonardoalbano/RiderProjects/UndefinedCRM/src/UndefinedCRM.Infrastructure/UndefinedCRM.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[8.0.13, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[8.0.7, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.6.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.406/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/leonardoalbano/RiderProjects/UndefinedCRM/src/UndefinedCRM.Application/UndefinedCRM.Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/leonardoalbano/RiderProjects/UndefinedCRM/src/UndefinedCRM.Application/UndefinedCRM.Application.csproj",
+        "projectName": "UndefinedCRM.Application",
+        "projectPath": "/Users/leonardoalbano/RiderProjects/UndefinedCRM/src/UndefinedCRM.Application/UndefinedCRM.Application.csproj",
+        "packagesPath": "/Users/leonardoalbano/.nuget/packages/",
+        "outputPath": "/Users/leonardoalbano/RiderProjects/UndefinedCRM/src/UndefinedCRM.Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/leonardoalbano/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/leonardoalbano/RiderProjects/UndefinedCRM/src/UndefinedCRM.Communication/UndefinedCRM.Communication.csproj": {
+                "projectPath": "/Users/leonardoalbano/RiderProjects/UndefinedCRM/src/UndefinedCRM.Communication/UndefinedCRM.Communication.csproj"
+              },
+              "/Users/leonardoalbano/RiderProjects/UndefinedCRM/src/UndefinedCRM.Domain/UndefinedCRM.Domain.csproj": {
+                "projectPath": "/Users/leonardoalbano/RiderProjects/UndefinedCRM/src/UndefinedCRM.Domain/UndefinedCRM.Domain.csproj"
+              },
+              "/Users/leonardoalbano/RiderProjects/UndefinedCRM/src/UndefinedCRM.Exception/UndefinedCRM.Exception.csproj": {
+                "projectPath": "/Users/leonardoalbano/RiderProjects/UndefinedCRM/src/UndefinedCRM.Exception/UndefinedCRM.Exception.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.406/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/leonardoalbano/RiderProjects/UndefinedCRM/src/UndefinedCRM.Communication/UndefinedCRM.Communication.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/leonardoalbano/RiderProjects/UndefinedCRM/src/UndefinedCRM.Communication/UndefinedCRM.Communication.csproj",
+        "projectName": "UndefinedCRM.Communication",
+        "projectPath": "/Users/leonardoalbano/RiderProjects/UndefinedCRM/src/UndefinedCRM.Communication/UndefinedCRM.Communication.csproj",
+        "packagesPath": "/Users/leonardoalbano/.nuget/packages/",
+        "outputPath": "/Users/leonardoalbano/RiderProjects/UndefinedCRM/src/UndefinedCRM.Communication/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/leonardoalbano/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.406/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/leonardoalbano/RiderProjects/UndefinedCRM/src/UndefinedCRM.Domain/UndefinedCRM.Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/leonardoalbano/RiderProjects/UndefinedCRM/src/UndefinedCRM.Domain/UndefinedCRM.Domain.csproj",
+        "projectName": "UndefinedCRM.Domain",
+        "projectPath": "/Users/leonardoalbano/RiderProjects/UndefinedCRM/src/UndefinedCRM.Domain/UndefinedCRM.Domain.csproj",
+        "packagesPath": "/Users/leonardoalbano/.nuget/packages/",
+        "outputPath": "/Users/leonardoalbano/RiderProjects/UndefinedCRM/src/UndefinedCRM.Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/leonardoalbano/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.406/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/leonardoalbano/RiderProjects/UndefinedCRM/src/UndefinedCRM.Exception/UndefinedCRM.Exception.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/leonardoalbano/RiderProjects/UndefinedCRM/src/UndefinedCRM.Exception/UndefinedCRM.Exception.csproj",
+        "projectName": "UndefinedCRM.Exception",
+        "projectPath": "/Users/leonardoalbano/RiderProjects/UndefinedCRM/src/UndefinedCRM.Exception/UndefinedCRM.Exception.csproj",
+        "packagesPath": "/Users/leonardoalbano/.nuget/packages/",
+        "outputPath": "/Users/leonardoalbano/RiderProjects/UndefinedCRM/src/UndefinedCRM.Exception/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/leonardoalbano/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.406/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/leonardoalbano/RiderProjects/UndefinedCRM/src/UndefinedCRM.Infrastructure/UndefinedCRM.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/leonardoalbano/RiderProjects/UndefinedCRM/src/UndefinedCRM.Infrastructure/UndefinedCRM.Infrastructure.csproj",
+        "projectName": "UndefinedCRM.Infrastructure",
+        "projectPath": "/Users/leonardoalbano/RiderProjects/UndefinedCRM/src/UndefinedCRM.Infrastructure/UndefinedCRM.Infrastructure.csproj",
+        "packagesPath": "/Users/leonardoalbano/.nuget/packages/",
+        "outputPath": "/Users/leonardoalbano/RiderProjects/UndefinedCRM/src/UndefinedCRM.Infrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/leonardoalbano/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/leonardoalbano/RiderProjects/UndefinedCRM/src/UndefinedCRM.Domain/UndefinedCRM.Domain.csproj": {
+                "projectPath": "/Users/leonardoalbano/RiderProjects/UndefinedCRM/src/UndefinedCRM.Domain/UndefinedCRM.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.406/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
