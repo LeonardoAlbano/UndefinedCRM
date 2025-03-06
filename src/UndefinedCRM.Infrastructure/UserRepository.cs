@@ -3,6 +3,7 @@ using Microsoft.Extensions.Configuration;
 using Npgsql;
 using System.Data;
 using UndefinedCRM.Domain;
+using UndefinedCRM.Domain.Entities;
 
 namespace UndefinedCRM.Infrastructure;
 

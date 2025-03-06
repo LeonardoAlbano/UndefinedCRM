@@ -1,4 +1,4 @@
-namespace UndefinedCRM.Domain
+namespace UndefinedCRM.Domain.Entities
 {
     public class User
     {
