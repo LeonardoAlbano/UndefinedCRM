@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("UndefinedCRM.Exception")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7f82bcc7f0a495220db044a5b5c6052aeeffb666")]
 [assembly: System.Reflection.AssemblyProductAttribute("UndefinedCRM.Exception")]
 [assembly: System.Reflection.AssemblyTitleAttribute("UndefinedCRM.Exception")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

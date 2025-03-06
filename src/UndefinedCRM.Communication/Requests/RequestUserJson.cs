@@ -1,6 +1,6 @@
 namespace UndefinedCRM.Communication.Requests;
 
-public class RequestRegisterUserJson
+public class RequestUserJson
 {
     public string Name { get; set; } = string.Empty;
     

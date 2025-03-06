@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "oZcW2j2m8J8=",
+  "dgSpecHash": "zSpjVv6MQr0=",
   "success": true,
   "projectFilePath": "/Users/leonardoalbano/RiderProjects/UndefinedCRM/src/UndefinedCRM.Application/UndefinedCRM.Application.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "/Users/leonardoalbano/.nuget/packages/fluentvalidation/12.0.0-preview1/fluentvalidation.12.0.0-preview1.nupkg.sha512"
+  ],
   "logs": []
 }
