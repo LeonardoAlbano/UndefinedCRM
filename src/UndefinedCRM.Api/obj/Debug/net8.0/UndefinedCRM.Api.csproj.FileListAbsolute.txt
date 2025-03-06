@@ -272,3 +272,4 @@
 /Users/leonardoalbano/RiderProjects/UndefinedCRM/src/UndefinedCRM.Api/bin/Debug/net8.0/runtimes/browser/lib/net8.0/System.Text.Encodings.Web.dll
 /Users/leonardoalbano/RiderProjects/UndefinedCRM/src/UndefinedCRM.Api/obj/Debug/net8.0/UndefinedCRM.Api.sourcelink.json
 /Users/leonardoalbano/RiderProjects/UndefinedCRM/src/UndefinedCRM.Api/bin/Debug/net8.0/FluentValidation.dll
+/Users/leonardoalbano/RiderProjects/UndefinedCRM/src/UndefinedCRM.Api/bin/Debug/net8.0/Microsoft.Extensions.Configuration.dll

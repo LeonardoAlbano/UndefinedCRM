@@ -1,9 +1,14 @@
+using Microsoft.Extensions.Configuration;
+using UndefinedCRM.Application.UseCases.Users.Register;
+using UndefinedCRM.Infrastructure;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-
 builder.Services.AddControllers();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+builder.Services.AddScoped<UserRepository>();
+builder.Services.AddScoped<RegisterUserUseCase>();
+builder.Services.AddSingleton<IConfiguration>(builder.Configuration);
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 

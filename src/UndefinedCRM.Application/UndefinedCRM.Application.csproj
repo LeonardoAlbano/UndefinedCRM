@@ -10,6 +10,7 @@
       <ProjectReference Include="..\UndefinedCRM.Communication\UndefinedCRM.Communication.csproj" />
       <ProjectReference Include="..\UndefinedCRM.Domain\UndefinedCRM.Domain.csproj" />
       <ProjectReference Include="..\UndefinedCRM.Exception\UndefinedCRM.Exception.csproj" />
+      <ProjectReference Include="..\UndefinedCRM.Infrastructure\UndefinedCRM.Infrastructure.csproj" />
     </ItemGroup>
 
     <ItemGroup>

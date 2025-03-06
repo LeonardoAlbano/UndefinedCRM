@@ -1177,7 +1177,7 @@
           "Microsoft.CodeAnalysis.Workspaces.MSBuild": "4.8.0",
           "Microsoft.EntityFrameworkCore.Relational": "9.0.2",
           "Microsoft.Extensions.Caching.Memory": "9.0.2",
-          "Microsoft.Extensions.Configuration.Abstractions": "9.0.2",
+          "Microsoft.Extensions.Configuration.Abstractions": "10.0.0-preview.1.25080.5",
           "Microsoft.Extensions.DependencyModel": "9.0.2",
           "Microsoft.Extensions.Logging": "9.0.2",
           "Mono.TextTemplating": "3.0.0",
@@ -1194,7 +1194,7 @@
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "9.0.2",
           "Microsoft.Extensions.Caching.Memory": "9.0.2",
-          "Microsoft.Extensions.Configuration.Abstractions": "9.0.2",
+          "Microsoft.Extensions.Configuration.Abstractions": "10.0.0-preview.1.25080.5",
           "Microsoft.Extensions.Logging": "9.0.2"
         },
         "runtime": {
@@ -1207,7 +1207,7 @@
       "Microsoft.Extensions.ApiDescription.Server/6.0.5": {},
       "Microsoft.Extensions.Caching.Abstractions/9.0.2": {
         "dependencies": {
-          "Microsoft.Extensions.Primitives": "9.0.2"
+          "Microsoft.Extensions.Primitives": "10.0.0-preview.1.25080.5"
         },
         "runtime": {
           "lib/net8.0/Microsoft.Extensions.Caching.Abstractions.dll": {
@@ -1222,7 +1222,7 @@
           "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.2",
           "Microsoft.Extensions.Logging.Abstractions": "9.0.2",
           "Microsoft.Extensions.Options": "9.0.2",
-          "Microsoft.Extensions.Primitives": "9.0.2"
+          "Microsoft.Extensions.Primitives": "10.0.0-preview.1.25080.5"
         },
         "runtime": {
           "lib/net8.0/Microsoft.Extensions.Caching.Memory.dll": {
@@ -1231,14 +1231,26 @@
           }
         }
       },
-      "Microsoft.Extensions.Configuration.Abstractions/9.0.2": {
+      "Microsoft.Extensions.Configuration/10.0.0-preview.1.25080.5": {
         "dependencies": {
-          "Microsoft.Extensions.Primitives": "9.0.2"
+          "Microsoft.Extensions.Configuration.Abstractions": "10.0.0-preview.1.25080.5",
+          "Microsoft.Extensions.Primitives": "10.0.0-preview.1.25080.5"
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.Configuration.dll": {
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.25.8005"
+          }
+        }
+      },
+      "Microsoft.Extensions.Configuration.Abstractions/10.0.0-preview.1.25080.5": {
+        "dependencies": {
+          "Microsoft.Extensions.Primitives": "10.0.0-preview.1.25080.5"
         },
         "runtime": {
           "lib/net8.0/Microsoft.Extensions.Configuration.Abstractions.dll": {
-            "assemblyVersion": "9.0.0.0",
-            "fileVersion": "9.0.225.6610"
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.25.8005"
           }
         }
       },
@@ -1301,7 +1313,7 @@
       "Microsoft.Extensions.Options/9.0.2": {
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection.Abstractions": "9.0.2",
-          "Microsoft.Extensions.Primitives": "9.0.2"
+          "Microsoft.Extensions.Primitives": "10.0.0-preview.1.25080.5"
         },
         "runtime": {
           "lib/net8.0/Microsoft.Extensions.Options.dll": {
@@ -1310,11 +1322,11 @@
           }
         }
       },
-      "Microsoft.Extensions.Primitives/9.0.2": {
+      "Microsoft.Extensions.Primitives/10.0.0-preview.1.25080.5": {
         "runtime": {
           "lib/net8.0/Microsoft.Extensions.Primitives.dll": {
-            "assemblyVersion": "9.0.0.0",
-            "fileVersion": "9.0.225.6610"
+            "assemblyVersion": "10.0.0.0",
+            "fileVersion": "10.0.25.8005"
           }
         }
       },
@@ -1832,7 +1844,8 @@
           "FluentValidation": "12.0.0-preview1",
           "UndefinedCRM.Communication": "1.0.0",
           "UndefinedCRM.Domain": "1.0.0",
-          "UndefinedCRM.Exception": "1.0.0"
+          "UndefinedCRM.Exception": "1.0.0",
+          "UndefinedCRM.Infrastructure": "1.0.0"
         },
         "runtime": {
           "UndefinedCRM.Application.dll": {
@@ -1867,6 +1880,9 @@
       },
       "UndefinedCRM.Infrastructure/1.0.0": {
         "dependencies": {
+          "Dapper": "2.1.66",
+          "Microsoft.Extensions.Configuration": "10.0.0-preview.1.25080.5",
+          "Npgsql": "9.0.3",
           "UndefinedCRM.Domain": "1.0.0"
         },
         "runtime": {
@@ -2444,12 +2460,19 @@
       "path": "microsoft.extensions.caching.memory/9.0.2",
       "hashPath": "microsoft.extensions.caching.memory.9.0.2.nupkg.sha512"
     },
-    "Microsoft.Extensions.Configuration.Abstractions/9.0.2": {
+    "Microsoft.Extensions.Configuration/10.0.0-preview.1.25080.5": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-I0O/270E/lUNqbBxlRVjxKOMZyYjP88dpEgQTveml+h2lTzAP4vbawLVwjS9SC7lKaU893bwyyNz0IVJYsm9EA==",
-      "path": "microsoft.extensions.configuration.abstractions/9.0.2",
-      "hashPath": "microsoft.extensions.configuration.abstractions.9.0.2.nupkg.sha512"
+      "sha512": "sha512-6eO/BKLwr6BA7xcTuAEUtB0kJj1tcXmF0hz2ak8TQZMb3X8PVRIK0yh1hfTxI885oXDXPZQw4pa5cuo0Y6M6ZA==",
+      "path": "microsoft.extensions.configuration/10.0.0-preview.1.25080.5",
+      "hashPath": "microsoft.extensions.configuration.10.0.0-preview.1.25080.5.nupkg.sha512"
+    },
+    "Microsoft.Extensions.Configuration.Abstractions/10.0.0-preview.1.25080.5": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-tsw7Qt0TnaDIllzOG+YgEzjFm5TbSwbUVAO0Px4zYCUkWbaKAYbccHwMRtaWYvoEFXGFz3+B7DGHSs/txRxe6g==",
+      "path": "microsoft.extensions.configuration.abstractions/10.0.0-preview.1.25080.5",
+      "hashPath": "microsoft.extensions.configuration.abstractions.10.0.0-preview.1.25080.5.nupkg.sha512"
     },
     "Microsoft.Extensions.DependencyInjection/9.0.2": {
       "type": "package",
@@ -2493,12 +2516,12 @@
       "path": "microsoft.extensions.options/9.0.2",
       "hashPath": "microsoft.extensions.options.9.0.2.nupkg.sha512"
     },
-    "Microsoft.Extensions.Primitives/9.0.2": {
+    "Microsoft.Extensions.Primitives/10.0.0-preview.1.25080.5": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-puBMtKe/wLuYa7H6docBkLlfec+h8L35DXqsDKKJgW0WY5oCwJ3cBJKcDaZchv6knAyqOMfsl6VUbaR++E5LXA==",
-      "path": "microsoft.extensions.primitives/9.0.2",
-      "hashPath": "microsoft.extensions.primitives.9.0.2.nupkg.sha512"
+      "sha512": "sha512-vuci/NLr6n/4Vxig68IwDxu2J6OMv6k9d8PXi+QHR2z7EZciBxL1R5Ri3kdMUZxZfD38M/AcUWllGcynSgPJSg==",
+      "path": "microsoft.extensions.primitives/10.0.0-preview.1.25080.5",
+      "hashPath": "microsoft.extensions.primitives.10.0.0-preview.1.25080.5.nupkg.sha512"
     },
     "Microsoft.NET.StringTools/17.8.3": {
       "type": "package",
