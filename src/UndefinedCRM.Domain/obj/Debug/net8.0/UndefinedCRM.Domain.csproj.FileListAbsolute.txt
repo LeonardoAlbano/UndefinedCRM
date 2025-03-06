@@ -9,3 +9,4 @@
 /Users/leonardoalbano/RiderProjects/UndefinedCRM/src/UndefinedCRM.Domain/obj/Debug/net8.0/refint/UndefinedCRM.Domain.dll
 /Users/leonardoalbano/RiderProjects/UndefinedCRM/src/UndefinedCRM.Domain/obj/Debug/net8.0/UndefinedCRM.Domain.pdb
 /Users/leonardoalbano/RiderProjects/UndefinedCRM/src/UndefinedCRM.Domain/obj/Debug/net8.0/ref/UndefinedCRM.Domain.dll
+/Users/leonardoalbano/RiderProjects/UndefinedCRM/src/UndefinedCRM.Domain/obj/Debug/net8.0/UndefinedCRM.Domain.sourcelink.json

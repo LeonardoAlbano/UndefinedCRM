@@ -9,3 +9,4 @@
 /Users/leonardoalbano/RiderProjects/UndefinedCRM/src/UndefinedCRM.Communication/obj/Debug/net8.0/refint/UndefinedCRM.Communication.dll
 /Users/leonardoalbano/RiderProjects/UndefinedCRM/src/UndefinedCRM.Communication/obj/Debug/net8.0/UndefinedCRM.Communication.pdb
 /Users/leonardoalbano/RiderProjects/UndefinedCRM/src/UndefinedCRM.Communication/obj/Debug/net8.0/ref/UndefinedCRM.Communication.dll
+/Users/leonardoalbano/RiderProjects/UndefinedCRM/src/UndefinedCRM.Communication/obj/Debug/net8.0/UndefinedCRM.Communication.sourcelink.json

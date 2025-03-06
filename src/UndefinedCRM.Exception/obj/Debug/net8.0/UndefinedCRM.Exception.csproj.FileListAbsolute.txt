@@ -9,3 +9,4 @@
 /Users/leonardoalbano/RiderProjects/UndefinedCRM/src/UndefinedCRM.Exception/obj/Debug/net8.0/refint/UndefinedCRM.Exception.dll
 /Users/leonardoalbano/RiderProjects/UndefinedCRM/src/UndefinedCRM.Exception/obj/Debug/net8.0/UndefinedCRM.Exception.pdb
 /Users/leonardoalbano/RiderProjects/UndefinedCRM/src/UndefinedCRM.Exception/obj/Debug/net8.0/ref/UndefinedCRM.Exception.dll
+/Users/leonardoalbano/RiderProjects/UndefinedCRM/src/UndefinedCRM.Exception/obj/Debug/net8.0/UndefinedCRM.Exception.sourcelink.json
