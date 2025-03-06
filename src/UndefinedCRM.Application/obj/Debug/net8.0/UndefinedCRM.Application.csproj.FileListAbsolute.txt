@@ -18,3 +18,5 @@
 /Users/leonardoalbano/RiderProjects/UndefinedCRM/src/UndefinedCRM.Application/obj/Debug/net8.0/UndefinedCRM.Application.pdb
 /Users/leonardoalbano/RiderProjects/UndefinedCRM/src/UndefinedCRM.Application/obj/Debug/net8.0/ref/UndefinedCRM.Application.dll
 /Users/leonardoalbano/RiderProjects/UndefinedCRM/src/UndefinedCRM.Application/obj/Debug/net8.0/UndefinedCRM.Application.sourcelink.json
+/Users/leonardoalbano/RiderProjects/UndefinedCRM/src/UndefinedCRM.Application/bin/Debug/net8.0/UndefinedCRM.Infrastructure.dll
+/Users/leonardoalbano/RiderProjects/UndefinedCRM/src/UndefinedCRM.Application/bin/Debug/net8.0/UndefinedCRM.Infrastructure.pdb
