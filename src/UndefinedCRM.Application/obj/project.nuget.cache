@@ -1,17 +1,34 @@
 {
   "version": 2,
-  "dgSpecHash": "uUX8j4p3m8I=",
+  "dgSpecHash": "5YCsfxZv4+Q=",
   "success": true,
   "projectFilePath": "/Users/leonardoalbano/RiderProjects/UndefinedCRM/src/UndefinedCRM.Application/UndefinedCRM.Application.csproj",
   "expectedPackageFiles": [
+    "/Users/leonardoalbano/.nuget/packages/bcrypt.net-next/4.0.3/bcrypt.net-next.4.0.3.nupkg.sha512",
     "/Users/leonardoalbano/.nuget/packages/dapper/2.1.66/dapper.2.1.66.nupkg.sha512",
     "/Users/leonardoalbano/.nuget/packages/fluentvalidation/12.0.0-preview1/fluentvalidation.12.0.0-preview1.nupkg.sha512",
+    "/Users/leonardoalbano/.nuget/packages/microsoft.bcl.memory/9.0.0/microsoft.bcl.memory.9.0.0.nupkg.sha512",
+    "/Users/leonardoalbano/.nuget/packages/microsoft.entityframeworkcore/8.0.13/microsoft.entityframeworkcore.8.0.13.nupkg.sha512",
+    "/Users/leonardoalbano/.nuget/packages/microsoft.entityframeworkcore.abstractions/8.0.13/microsoft.entityframeworkcore.abstractions.8.0.13.nupkg.sha512",
+    "/Users/leonardoalbano/.nuget/packages/microsoft.entityframeworkcore.analyzers/8.0.13/microsoft.entityframeworkcore.analyzers.8.0.13.nupkg.sha512",
+    "/Users/leonardoalbano/.nuget/packages/microsoft.entityframeworkcore.relational/8.0.11/microsoft.entityframeworkcore.relational.8.0.11.nupkg.sha512",
+    "/Users/leonardoalbano/.nuget/packages/microsoft.extensions.caching.abstractions/8.0.0/microsoft.extensions.caching.abstractions.8.0.0.nupkg.sha512",
+    "/Users/leonardoalbano/.nuget/packages/microsoft.extensions.caching.memory/8.0.1/microsoft.extensions.caching.memory.8.0.1.nupkg.sha512",
     "/Users/leonardoalbano/.nuget/packages/microsoft.extensions.configuration/10.0.0-preview.1.25080.5/microsoft.extensions.configuration.10.0.0-preview.1.25080.5.nupkg.sha512",
     "/Users/leonardoalbano/.nuget/packages/microsoft.extensions.configuration.abstractions/10.0.0-preview.1.25080.5/microsoft.extensions.configuration.abstractions.10.0.0-preview.1.25080.5.nupkg.sha512",
+    "/Users/leonardoalbano/.nuget/packages/microsoft.extensions.dependencyinjection/8.0.1/microsoft.extensions.dependencyinjection.8.0.1.nupkg.sha512",
     "/Users/leonardoalbano/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.2/microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512",
+    "/Users/leonardoalbano/.nuget/packages/microsoft.extensions.logging/8.0.1/microsoft.extensions.logging.8.0.1.nupkg.sha512",
     "/Users/leonardoalbano/.nuget/packages/microsoft.extensions.logging.abstractions/8.0.2/microsoft.extensions.logging.abstractions.8.0.2.nupkg.sha512",
+    "/Users/leonardoalbano/.nuget/packages/microsoft.extensions.options/8.0.2/microsoft.extensions.options.8.0.2.nupkg.sha512",
     "/Users/leonardoalbano/.nuget/packages/microsoft.extensions.primitives/10.0.0-preview.1.25080.5/microsoft.extensions.primitives.10.0.0-preview.1.25080.5.nupkg.sha512",
-    "/Users/leonardoalbano/.nuget/packages/npgsql/9.0.3/npgsql.9.0.3.nupkg.sha512"
+    "/Users/leonardoalbano/.nuget/packages/microsoft.identitymodel.abstractions/8.6.0/microsoft.identitymodel.abstractions.8.6.0.nupkg.sha512",
+    "/Users/leonardoalbano/.nuget/packages/microsoft.identitymodel.jsonwebtokens/8.6.0/microsoft.identitymodel.jsonwebtokens.8.6.0.nupkg.sha512",
+    "/Users/leonardoalbano/.nuget/packages/microsoft.identitymodel.logging/8.6.0/microsoft.identitymodel.logging.8.6.0.nupkg.sha512",
+    "/Users/leonardoalbano/.nuget/packages/microsoft.identitymodel.tokens/8.6.0/microsoft.identitymodel.tokens.8.6.0.nupkg.sha512",
+    "/Users/leonardoalbano/.nuget/packages/npgsql/9.0.3/npgsql.9.0.3.nupkg.sha512",
+    "/Users/leonardoalbano/.nuget/packages/npgsql.entityframeworkcore.postgresql/8.0.11/npgsql.entityframeworkcore.postgresql.8.0.11.nupkg.sha512",
+    "/Users/leonardoalbano/.nuget/packages/system.identitymodel.tokens.jwt/8.6.0/system.identitymodel.tokens.jwt.8.6.0.nupkg.sha512"
   ],
   "logs": []
 }
