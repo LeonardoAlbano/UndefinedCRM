@@ -18,18 +18,27 @@ public class DeleteClientUseCase
 
     public async Task Execute(int id)
     {
-        var userId = GetAuthenticatedUserId();
-        
-        var existingClient = await _clientRepository.GetClientByIdAsync(id, userId);
-        if (existingClient == null)
+        try
         {
-            throw new ErrorOnValidationException(new List<string> { "Client not found" });
+            var userId = GetAuthenticatedUserId();
+            
+            var existingClient = await _clientRepository.GetClientByIdAsync(id, userId);
+            if (existingClient == null)
+            {
+                throw new ErrorOnValidationException(new List<string> { "Client not found" });
+            }
+            
+            var success = await _clientRepository.DeleteClientAsync(id, userId);
+            if (!success)
+            {
+                throw new ErrorOnValidationException(new List<string> { "Failed to delete client" });
+            }
         }
-        
-        var success = await _clientRepository.DeleteClientAsync(id, userId);
-        if (!success)
+        catch (System.Exception ex)
         {
-            throw new ErrorOnValidationException(new List<string> { "Failed to delete client" });
+            Console.WriteLine($"Error in DeleteClientUseCase.Execute: {ex.Message}");
+            Console.WriteLine($"Stack trace: {ex.StackTrace}");
+            throw; // Re-throw to let the controller handle it
         }
     }
     

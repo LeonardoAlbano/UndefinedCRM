@@ -57,12 +57,53 @@ public class ClientRepository
 
     public async Task<bool> DeleteClientAsync(int id, int userId)
     {
-        using IDbConnection dbConnection = new NpgsqlConnection(_connectionString);
-        dbConnection.Open();
-        var rowsAffected = await dbConnection.ExecuteAsync(
-            "DELETE FROM Clients WHERE Id = @Id AND UserId = @UserId", 
-            new { Id = id, UserId = userId });
-        return rowsAffected > 0;
+        try
+        {
+            using IDbConnection dbConnection = new NpgsqlConnection(_connectionString);
+            dbConnection.Open();
+            
+            // Begin transaction to handle potential foreign key constraints
+            using var transaction = dbConnection.BeginTransaction();
+            
+            try
+            {
+                // First check if there are any projects associated with this client
+                var hasProjects = await dbConnection.ExecuteScalarAsync<bool>(
+                    "SELECT COUNT(1) > 0 FROM Projects WHERE ClientId = @Id", 
+                    new { Id = id },
+                    transaction);
+                
+                if (hasProjects)
+                {
+                    // Delete associated projects first
+                    await dbConnection.ExecuteAsync(
+                        "DELETE FROM Projects WHERE ClientId = @Id", 
+                        new { Id = id },
+                        transaction);
+                }
+                
+                // Now delete the client
+                var rowsAffected = await dbConnection.ExecuteAsync(
+                    "DELETE FROM Clients WHERE Id = @Id AND UserId = @UserId", 
+                    new { Id = id, UserId = userId },
+                    transaction);
+                
+                transaction.Commit();
+                return rowsAffected > 0;
+            }
+            catch (Exception ex)
+            {
+                transaction.Rollback();
+                Console.WriteLine($"Error in DeleteClientAsync transaction: {ex.Message}");
+                throw;
+            }
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine($"Error in DeleteClientAsync: {ex.Message}");
+            Console.WriteLine($"Stack trace: {ex.StackTrace}");
+            return false;
+        }
     }
 }
 
