@@ -6,6 +6,10 @@ using UndefinedCRM.Application.UseCases.Clients.Create;
 using UndefinedCRM.Application.UseCases.Clients.Delete;
 using UndefinedCRM.Application.UseCases.Clients.GetAll;
 using UndefinedCRM.Application.UseCases.Clients.Update;
+using UndefinedCRM.Application.UseCases.Projects.Create;
+using UndefinedCRM.Application.UseCases.Projects.Delete;
+using UndefinedCRM.Application.UseCases.Projects.GetAll;
+using UndefinedCRM.Application.UseCases.Projects.Update;
 using UndefinedCRM.Application.UseCases.Users.GetProfile;
 using UndefinedCRM.Application.UseCases.Users.Login;
 using UndefinedCRM.Application.UseCases.Users.Register;
@@ -20,6 +24,7 @@ builder.Services.AddControllers();
 // Repositories
 builder.Services.AddScoped<UserRepository>();
 builder.Services.AddScoped<ClientRepository>();
+builder.Services.AddScoped<ProjectRepository>();
 
 // User Use Cases
 builder.Services.AddScoped<RegisterUserUseCase>();
@@ -31,6 +36,12 @@ builder.Services.AddScoped<CreateClientUseCase>();
 builder.Services.AddScoped<GetAllClientsUseCase>();
 builder.Services.AddScoped<UpdateClientUseCase>();
 builder.Services.AddScoped<DeleteClientUseCase>();
+
+// Project Use Cases
+builder.Services.AddScoped<CreateProjectUseCase>();
+builder.Services.AddScoped<GetAllProjectsUseCase>();
+builder.Services.AddScoped<UpdateProjectUseCase>();
+builder.Services.AddScoped<DeleteProjectUseCase>();
 
 builder.Services.AddScoped<JwtTokenGenerator>();
 builder.Services.AddHttpContextAccessor();

@@ -8,6 +8,7 @@ public class UndefinedDbContext(DbContextOptions<UndefinedDbContext> options) : 
 {
     public DbSet<User> Users { get; set; }
     public DbSet<Client> Clients { get; set; }
+    public DbSet<Project> Projects { get; set; }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
@@ -30,6 +31,18 @@ public class UndefinedDbContext(DbContextOptions<UndefinedDbContext> options) : 
             entity.HasOne(c => c.User)
                 .WithMany()
                 .HasForeignKey(c => c.UserId)
+                .OnDelete(DeleteBehavior.Cascade);
+        });
+        
+        modelBuilder.Entity<Project>(entity =>
+        {
+            entity.HasKey(p => p.Id);
+            entity.Property(p => p.Name).IsRequired();
+            
+            // Define relationship with Client
+            entity.HasOne(p => p.Client)
+                .WithMany()
+                .HasForeignKey(p => p.ClientId)
                 .OnDelete(DeleteBehavior.Cascade);
         });
     }
