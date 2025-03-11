@@ -2,6 +2,10 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.IdentityModel.Tokens;
 using System.Text;
+using UndefinedCRM.Application.UseCases.Clients.Create;
+using UndefinedCRM.Application.UseCases.Clients.Delete;
+using UndefinedCRM.Application.UseCases.Clients.GetAll;
+using UndefinedCRM.Application.UseCases.Clients.Update;
 using UndefinedCRM.Application.UseCases.Users.GetProfile;
 using UndefinedCRM.Application.UseCases.Users.Login;
 using UndefinedCRM.Application.UseCases.Users.Register;
@@ -12,10 +16,22 @@ using UndefinedCRM.Infrastructure.Security.Tokens.Access;
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
+
+// Repositories
 builder.Services.AddScoped<UserRepository>();
+builder.Services.AddScoped<ClientRepository>();
+
+// User Use Cases
 builder.Services.AddScoped<RegisterUserUseCase>();
 builder.Services.AddScoped<LoginUserUseCase>();
 builder.Services.AddScoped<GetUserProfileUseCase>();
+
+// Client Use Cases
+builder.Services.AddScoped<CreateClientUseCase>();
+builder.Services.AddScoped<GetAllClientsUseCase>();
+builder.Services.AddScoped<UpdateClientUseCase>();
+builder.Services.AddScoped<DeleteClientUseCase>();
+
 builder.Services.AddScoped<JwtTokenGenerator>();
 builder.Services.AddHttpContextAccessor();
 builder.Services.AddSingleton<IConfiguration>(builder.Configuration);

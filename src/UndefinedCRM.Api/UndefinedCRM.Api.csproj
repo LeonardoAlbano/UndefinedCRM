@@ -26,8 +26,4 @@
       <ProjectReference Include="..\UndefinedCRM.Infrastructure\UndefinedCRM.Infrastructure.csproj" />
     </ItemGroup>
 
-    <ItemGroup>
-      <Folder Include="Controllers\" />
-    </ItemGroup>
-
 </Project>
