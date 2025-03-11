@@ -67,5 +67,10 @@ public class LoginUserUseCase
             throw new ErrorOnValidationException(errorMessages);
         }
     }
+
+    public async Task GetUserProfileByIdAsync(string userId)
+    {
+        throw new NotImplementedException();
+    }
 }
 

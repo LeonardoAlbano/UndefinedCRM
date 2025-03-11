@@ -9,8 +9,7 @@ namespace UndefinedCRM.Infrastructure;
 
 public class UserRepository(IConfiguration configuration)
 {
-    private readonly string _connectionString = configuration.GetConnectionString("DefaultConnection") 
-                                                ?? throw new ArgumentNullException(nameof(configuration), "Connection string 'DefaultConnection' not found.");
+    private readonly string _connectionString = configuration.GetConnectionString("DefaultConnection") ?? throw new ArgumentNullException(nameof(configuration), "Connection string 'DefaultConnection' not found.");
 
     public async Task<int> CreateUserAsync(User user)
     {
@@ -25,5 +24,12 @@ public class UserRepository(IConfiguration configuration)
         using IDbConnection dbConnection = new NpgsqlConnection(_connectionString);
         dbConnection.Open();
         return await dbConnection.QueryFirstOrDefaultAsync<User>("SELECT * FROM Users WHERE Email = @Email", new { Email = email });
+    }
+    
+    public async Task<User?> GetUserByIdAsync(int id)
+    {
+        using IDbConnection dbConnection = new NpgsqlConnection(_connectionString);
+        dbConnection.Open();
+        return await dbConnection.QueryFirstOrDefaultAsync<User>("SELECT * FROM Users WHERE Id = @Id", new { Id = id });
     }
 }

@@ -20,3 +20,9 @@
 /Users/leonardoalbano/RiderProjects/UndefinedCRM/src/UndefinedCRM.Application/obj/Debug/net8.0/UndefinedCRM.Application.sourcelink.json
 /Users/leonardoalbano/RiderProjects/UndefinedCRM/src/UndefinedCRM.Application/bin/Debug/net8.0/UndefinedCRM.Infrastructure.dll
 /Users/leonardoalbano/RiderProjects/UndefinedCRM/src/UndefinedCRM.Application/bin/Debug/net8.0/UndefinedCRM.Infrastructure.pdb
+/Users/leonardoalbano/RiderProjects/UndefinedCRM/src/UndefinedCRM.Application/bin/Debug/net8.0/Microsoft.AspNetCore.Http.Abstractions.dll
+/Users/leonardoalbano/RiderProjects/UndefinedCRM/src/UndefinedCRM.Application/bin/Debug/net8.0/System.IO.Pipelines.dll
+/Users/leonardoalbano/RiderProjects/UndefinedCRM/src/UndefinedCRM.Application/bin/Debug/net8.0/Microsoft.Extensions.Features.dll
+/Users/leonardoalbano/RiderProjects/UndefinedCRM/src/UndefinedCRM.Application/bin/Debug/net8.0/Microsoft.AspNetCore.Http.Features.dll
+/Users/leonardoalbano/RiderProjects/UndefinedCRM/src/UndefinedCRM.Application/bin/Debug/net8.0/Microsoft.Net.Http.Headers.dll
+/Users/leonardoalbano/RiderProjects/UndefinedCRM/src/UndefinedCRM.Application/bin/Debug/net8.0/Microsoft.AspNetCore.Connections.Abstractions.dll
