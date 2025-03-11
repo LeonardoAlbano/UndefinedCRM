@@ -18,28 +18,19 @@ public class DeleteProjectUseCase
 
     public async Task Execute(int id)
     {
-        try
+        var userId = GetAuthenticatedUserId();
+        
+        // Verify the project exists and belongs to a client of the user
+        var existingProject = await _projectRepository.GetProjectByIdAsync(id, userId);
+        if (existingProject == null)
         {
-            var userId = GetAuthenticatedUserId();
-            
-            // Verify the project exists and belongs to a client of the user
-            var existingProject = await _projectRepository.GetProjectByIdAsync(id, userId);
-            if (existingProject == null)
-            {
-                throw new ErrorOnValidationException(new List<string> { "Project not found or does not belong to the user's clients" });
-            }
-            
-            var success = await _projectRepository.DeleteProjectAsync(id, userId);
-            if (!success)
-            {
-                throw new ErrorOnValidationException(new List<string> { "Failed to delete project" });
-            }
+            throw new ErrorOnValidationException(new List<string> { "Project not found or does not belong to the user's clients" });
         }
-        catch (System.Exception ex)
+        
+        var success = await _projectRepository.DeleteProjectAsync(id, userId);
+        if (!success)
         {
-            Console.WriteLine($"Error in DeleteProjectUseCase.Execute: {ex.Message}");
-            Console.WriteLine($"Stack trace: {ex.StackTrace}");
-            throw; // Re-throw to let the controller handle it
+            throw new ErrorOnValidationException(new List<string> { "Failed to delete project" });
         }
     }
     
@@ -55,4 +46,3 @@ public class DeleteProjectUseCase
         return userId;
     }
 }
-

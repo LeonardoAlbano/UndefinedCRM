@@ -1,5 +1,4 @@
 /Users/leonardoalbano/RiderProjects/UndefinedCRM/src/UndefinedCRM.Api/bin/Debug/net8.0/appsettings.Development.json
-/Users/leonardoalbano/RiderProjects/UndefinedCRM/src/UndefinedCRM.Api/bin/Debug/net8.0/appsettings.json
 /Users/leonardoalbano/RiderProjects/UndefinedCRM/src/UndefinedCRM.Api/bin/Debug/net8.0/UndefinedCRM.Api
 /Users/leonardoalbano/RiderProjects/UndefinedCRM/src/UndefinedCRM.Api/bin/Debug/net8.0/UndefinedCRM.Api.deps.json
 /Users/leonardoalbano/RiderProjects/UndefinedCRM/src/UndefinedCRM.Api/bin/Debug/net8.0/UndefinedCRM.Api.runtimeconfig.json
@@ -267,3 +266,4 @@
 /Users/leonardoalbano/RiderProjects/UndefinedCRM/src/UndefinedCRM.Api/bin/Debug/net8.0/Microsoft.AspNetCore.Authentication.Google.dll
 /Users/leonardoalbano/RiderProjects/UndefinedCRM/src/UndefinedCRM.Api/bin/Debug/net8.0/System.Management.dll
 /Users/leonardoalbano/RiderProjects/UndefinedCRM/src/UndefinedCRM.Api/bin/Debug/net8.0/runtimes/win/lib/net7.0/System.Management.dll
+/Users/leonardoalbano/RiderProjects/UndefinedCRM/src/UndefinedCRM.Api/bin/Debug/net8.0/appsettings.json

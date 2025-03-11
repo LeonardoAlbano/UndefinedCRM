@@ -60,4 +60,3 @@ public class GetAllProjectsUseCase
         return userId;
     }
 }
-
