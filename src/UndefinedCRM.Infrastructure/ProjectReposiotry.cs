@@ -153,7 +153,6 @@ public class ProjectRepository
             using IDbConnection dbConnection = new NpgsqlConnection(_connectionString);
             dbConnection.Open();
             
-            // First verify the client belongs to the user
             var clientBelongsToUser = await dbConnection.ExecuteScalarAsync<bool>(
                 "SELECT COUNT(1) > 0 FROM Clients WHERE Id = @ClientId AND UserId = @UserId",
                 new { ClientId = project.ClientId, UserId = userId });
@@ -161,7 +160,6 @@ public class ProjectRepository
             if (!clientBelongsToUser)
                 return false;
             
-            // Simplified query that's easier to debug
             var sql = @"
             UPDATE Projects 
             SET ClientId = @ClientId, 
@@ -201,7 +199,6 @@ public class ProjectRepository
             using IDbConnection dbConnection = new NpgsqlConnection(_connectionString);
             dbConnection.Open();
             
-            // First check if the project exists and belongs to the user
             var projectExists = await dbConnection.ExecuteScalarAsync<bool>(@"
                 SELECT COUNT(1) > 0 
                 FROM Projects p
@@ -212,7 +209,6 @@ public class ProjectRepository
             if (!projectExists)
                 return false;
             
-            // Simplified delete query
             var sql = "DELETE FROM Projects WHERE Id = @Id";
                         
             var rowsAffected = await dbConnection.ExecuteAsync(sql, new { Id = id });

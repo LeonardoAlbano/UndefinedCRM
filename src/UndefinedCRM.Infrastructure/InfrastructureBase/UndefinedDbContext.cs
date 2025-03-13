@@ -27,7 +27,6 @@ public class UndefinedDbContext(DbContextOptions<UndefinedDbContext> options) : 
             entity.Property(c => c.Name).IsRequired();
             entity.Property(c => c.Surname).IsRequired();
             
-            // Define relationship with User
             entity.HasOne(c => c.User)
                 .WithMany()
                 .HasForeignKey(c => c.UserId)
@@ -39,7 +38,6 @@ public class UndefinedDbContext(DbContextOptions<UndefinedDbContext> options) : 
             entity.HasKey(p => p.Id);
             entity.Property(p => p.Name).IsRequired();
             
-            // Define relationship with Client
             entity.HasOne(p => p.Client)
                 .WithMany()
                 .HasForeignKey(p => p.ClientId)

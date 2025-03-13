@@ -62,12 +62,10 @@ public class ClientRepository
             using IDbConnection dbConnection = new NpgsqlConnection(_connectionString);
             dbConnection.Open();
             
-            // Begin transaction to handle potential foreign key constraints
             using var transaction = dbConnection.BeginTransaction();
             
             try
             {
-                // First check if there are any projects associated with this client
                 var hasProjects = await dbConnection.ExecuteScalarAsync<bool>(
                     "SELECT COUNT(1) > 0 FROM Projects WHERE ClientId = @Id", 
                     new { Id = id },
@@ -75,14 +73,12 @@ public class ClientRepository
                 
                 if (hasProjects)
                 {
-                    // Delete associated projects first
                     await dbConnection.ExecuteAsync(
                         "DELETE FROM Projects WHERE ClientId = @Id", 
                         new { Id = id },
                         transaction);
                 }
                 
-                // Now delete the client
                 var rowsAffected = await dbConnection.ExecuteAsync(
                     "DELETE FROM Clients WHERE Id = @Id AND UserId = @UserId", 
                     new { Id = id, UserId = userId },
