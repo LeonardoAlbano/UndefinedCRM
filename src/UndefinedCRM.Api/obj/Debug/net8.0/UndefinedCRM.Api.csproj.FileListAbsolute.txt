@@ -267,3 +267,6 @@
 /Users/leonardoalbano/RiderProjects/UndefinedCRM/src/UndefinedCRM.Api/bin/Debug/net8.0/System.Management.dll
 /Users/leonardoalbano/RiderProjects/UndefinedCRM/src/UndefinedCRM.Api/bin/Debug/net8.0/runtimes/win/lib/net7.0/System.Management.dll
 /Users/leonardoalbano/RiderProjects/UndefinedCRM/src/UndefinedCRM.Api/bin/Debug/net8.0/appsettings.json
+/Users/leonardoalbano/RiderProjects/UndefinedCRM/src/UndefinedCRM.Api/bin/Debug/net8.0/Microsoft.Extensions.Diagnostics.dll
+/Users/leonardoalbano/RiderProjects/UndefinedCRM/src/UndefinedCRM.Api/bin/Debug/net8.0/Microsoft.Extensions.Diagnostics.Abstractions.dll
+/Users/leonardoalbano/RiderProjects/UndefinedCRM/src/UndefinedCRM.Api/bin/Debug/net8.0/Microsoft.Extensions.Http.dll

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("UndefinedCRM.Communication")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b5c57b5d8abb5d1064868d5555b8bad4e5b39dc3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+11d5b77769266e684de419a94c6d9e673acb4eda")]
 [assembly: System.Reflection.AssemblyProductAttribute("UndefinedCRM.Communication")]
 [assembly: System.Reflection.AssemblyTitleAttribute("UndefinedCRM.Communication")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

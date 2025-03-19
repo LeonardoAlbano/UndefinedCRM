@@ -11,6 +11,7 @@ using UndefinedCRM.Application.UseCases.Projects.Delete;
 using UndefinedCRM.Application.UseCases.Projects.GetAll;
 using UndefinedCRM.Application.UseCases.Projects.Update;
 using UndefinedCRM.Application.UseCases.Users.GetProfile;
+using UndefinedCRM.Application.UseCases.Users.GoogleAuth;
 using UndefinedCRM.Application.UseCases.Users.Login;
 using UndefinedCRM.Application.UseCases.Users.Register;
 using UndefinedCRM.Infrastructure;
@@ -48,6 +49,9 @@ builder.Services.AddHttpContextAccessor();
 builder.Services.AddSingleton<IConfiguration>(builder.Configuration);
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+builder.Services.AddHttpClient(); // Add HttpClientFactory
+builder.Services.AddScoped<GoogleAuthUseCase>(); // Register the use case
 
 builder.Services.AddDbContext<UndefinedDbContext>(options => 
     options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection")));

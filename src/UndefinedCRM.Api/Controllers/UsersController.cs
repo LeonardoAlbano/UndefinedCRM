@@ -1,6 +1,7 @@
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using UndefinedCRM.Application.UseCases.Users.GetProfile;
+using UndefinedCRM.Application.UseCases.Users.GoogleAuth;
 using UndefinedCRM.Application.UseCases.Users.Login;
 using UndefinedCRM.Application.UseCases.Users.Register;
 using UndefinedCRM.Communication.Requests;
@@ -16,15 +17,18 @@ namespace UndefinedCRM.Api.Controllers
         private readonly RegisterUserUseCase _registerUserUseCase;
         private readonly LoginUserUseCase _loginUserUseCase;
         private readonly GetUserProfileUseCase _getUserProfileUseCase;
+        private readonly GoogleAuthUseCase _googleAuthUseCase;
 
         public UsersController(
             RegisterUserUseCase registerUserUseCase,
             LoginUserUseCase loginUserUseCase,
-            GetUserProfileUseCase getUserProfileUseCase)
+            GetUserProfileUseCase getUserProfileUseCase,
+            GoogleAuthUseCase googleAuthUseCase)
         {
             _registerUserUseCase = registerUserUseCase;
             _loginUserUseCase = loginUserUseCase;
             _getUserProfileUseCase = getUserProfileUseCase;
+            _googleAuthUseCase = googleAuthUseCase;
         }
 
         [HttpPost]
@@ -78,6 +82,26 @@ namespace UndefinedCRM.Api.Controllers
             {
                 var response = await _getUserProfileUseCase.Execute();
                 return Ok(new { user = response });
+            }
+            catch (UndefinedException ex)
+            {
+                return BadRequest(new ResponseErrorMessageJson { Errors = ex.GetErrorMessages() });
+            }
+            catch (System.Exception ex)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError, new ResponseErrorMessageJson { Errors = ["Internal Server Error: " + ex.Message] });
+            }
+        }
+        
+        [HttpPost("oauth/google")]
+        [ProducesResponseType(typeof(ResponseGoogleAuthJson), StatusCodes.Status200OK)]
+        [ProducesResponseType(typeof(ResponseErrorMessageJson), StatusCodes.Status400BadRequest)]
+        public async Task<IActionResult> GoogleAuth(RequestGoogleAuthJson request)
+        {
+            try
+            {
+                var response = await _googleAuthUseCase.Execute(request);
+                return Ok(response);
             }
             catch (UndefinedException ex)
             {
