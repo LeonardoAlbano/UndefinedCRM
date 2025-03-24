@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("UndefinedCRM.Application")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c88f227c30d2174acafe71347fda53851b71f6dd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c50c7ecfc88d734eabbf2f6f6a25e77230a9df1b")]
 [assembly: System.Reflection.AssemblyProductAttribute("UndefinedCRM.Application")]
 [assembly: System.Reflection.AssemblyTitleAttribute("UndefinedCRM.Application")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
